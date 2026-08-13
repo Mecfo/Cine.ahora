@@ -3,7 +3,7 @@
   --panel: rgba(18, 21, 32, .82);
   --panel-solid: #121520;
   --text: #f7f4ff;
-  --muted: #42F527;
+  --muted: #FBFFF5;
   --line: rgba(255,255,255,.1);
   --purple: #99CCD0
   --pink: #D09D99;
@@ -50,7 +50,8 @@ button { cursor: pointer; }
 .hero { display: grid; grid-template-columns: 1fr 1.22fr; gap: 64px; align-items: end; padding: 64px 0 32px; }
 .kicker { color: var(--pink); font-weight: 850; font-size: .72rem; letter-spacing: .14em; }
 .hero h1 { margin: 13px 0 18px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(3.9rem,8vw,7.2rem); line-height: .84; letter-spacing: -.065em; }
-.hero h1 em { font-weight: inherit; font-style: normal; background: linear-gradient(100deg,#99CCD0,#D09D99,); -webkit-background-clip:text; color: transparent; }
+.hero h1 em { font-weight: inherit; font-style: normal; background: linear-gradient(100deg,#99CCD0,#D09D99,); -webkit-background-clip:text; color: #D09D99
+; }
 .hero-copy p { color: var(--muted); max-width: 500px; line-height: 1.75; font-size: 1.02rem; }
 
 .filter-panel { background: var(--panel); backdrop-filter: blur(20px); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; display:grid; grid-template-columns: 1fr 1fr; gap: 14px; box-shadow: var(--shadow); }
